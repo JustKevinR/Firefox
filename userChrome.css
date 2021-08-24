@@ -247,3 +247,14 @@ padding-bottom: 3px;
 #tabs-newtab-button{
 display: none !important;
 }
+#navigator-toolbox{
+  padding-top: 10px !important;,
+}
+#tabbrowser-arrowscrollbox{
+  padding-bottom: 3px;
+}
+#nav-bar-customization-target,
+#nav-bar-overflow-button,
+#PanelUI-menu-button{
+  background: black !important;
+}

@@ -156,10 +156,12 @@ display: none !important;
 }
 
 .tab-icon-stack[selected="true"]{
-  padding-bottom: 7px;
+  padding-bottom: 10px;
   filter: drop-shadow(0 0 2px var(--uc-icon-glow-primary)) drop-shadow(0 0 1px var(--uc-icon-glow-primary))
 }
-
+.tab-icon-stack{
+  padding-bottom: 6px;
+}
 
 #urlbar:-moz-lwtheme:hover,
 #urlbar[focused="true"]:-moz-lwtheme,
@@ -181,5 +183,51 @@ display: none !important;
 
 
 
-#urlbar { font-family: Azeret Mono !important; color: cyan !important; text-shadow: red 1px 1px 0px !important; font-weight: bold !important; font-size: 13px !important;;
+#urlbar { background-color: black; font-family: Azeret Mono !important; color: cyan !important; text-shadow: red 1px 1px 0px !important; font-weight: bold !important; font-size: 13px !important;;
+}
+
+#navigator-toolbox{
+  background-color: black !important;
+}
+/* Make backgrounds transparent */
+.close-icon,
+.urlbar-icon,
+.urlbar-icon-wrapper,
+toolbar .toolbarbutton-1,
+#tabbrowser-tabs toolbarbutton,
+toolbar toolbarbutton > .toolbarbutton-icon,
+toolbar toolbarbutton > .toolbarbutton-badge-stack,
+.titlebar-button,
+#identity-box,
+.identity-box-button,
+#tracking-protection-icon-container,
+.findbar-textbox~toolbarbutton,
+toolbarbutton.scrollbutton-up,
+toolbarbutton.scrollbutton-down,
+toolbarbutton#scrollbutton-up,
+toolbarbutton#scrollbutton-down{
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.toolbarbutton-1 {
+  fill: red !important;
+}
+
+/* Glow effects on hover */
+.close-icon:hover,
+.urlbar-history-dropmarker:hover,
+#page-action-buttons > .urlbar-icon:hover,
+.urlbar-icon-wrapper:hover > .urlbar-icon,
+toolbar .toolbarbutton-1:not([disabled]):hover .toolbarbutton-icon,
+#TabsToolbar toolbarbutton:not([disabled]):hover .toolbarbutton-icon,
+toolbar #downloads-button:hover #downloads-indicator-anchor,
+.identity-box-button:hover,
+#tracking-protection-icon:hover,
+.findbar-textbox~toolbarbutton:not([disabled]):hover,
+toolbarbutton.scrollbutton-up:not([disabled]):hover,
+toolbarbutton.scrollbutton-down:not([disabled]):hover,
+toolbarbutton#scrollbutton-up:not([disabled]):hover,
+toolbarbutton#scrollbutton-down:not([disabled]):hover{ 
+  filter: drop-shadow(0 0 2px var(--uc-icon-glow-hover-primary)) drop-shadow(0 0 1px var(--uc-icon-glow-hover-primary))
 }

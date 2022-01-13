@@ -1,0 +1,96 @@
+.protections-popup-tp-switch:not([enabled]){background-color: color-mix(in srgb, var(--arrowpanel-background) 88%, var(--lwt-tab-text)) !important;}
+.protections-popup-tp-switch:not([enabled]):hover{background-color: var(--button-bgcolor) !important;}
+.protections-popup-tp-switch[enabled]:hover {
+    background-color: var(--general-color) !important;
+    border-color: transparent !important;
+}
+.protections-popup-tp-switch[enabled] {
+    background-color: color-mix(in srgb, var(--general-color) 70%, transparent) !important;
+    border-color: transparent !important;
+}
+#editBookmarkPanelBottomButtons>#editBookmarkPanelRemoveButton label{
+display: none !important;
+}
+#editBookmarkPanelBottomButtons>#editBookmarkPanelRemoveButton{
+background: url("../images/delete.svg") no-repeat center/16px !important;
+    fill: var(--toolbarbutton-icon-fill) !important;
+    -moz-context-properties: fill !important;
+}
+#editBookmarkPanelBottomButtons>#editBookmarkPanelRemoveButton {
+    background-color: #2e273f !important;
+    box-shadow: inset 0px 0px 0 1px color-mix(in srgb, var(--arrowpanel-background) 88%, var(--lwt-tab-text)) !important;
+    border-radius: 2px !important;
+}
+#editBookmarkPanelBottomButtons>#editBookmarkPanelRemoveButton:hover {
+    background-color: #ff2b22 !important;
+    color: #f0f6fc !important;
+    box-shadow: none !important;
+    fill: white !important;
+}
+#editBookmarkPanelBottomButtons>#editBookmarkPanelDoneButton {   
+    color: #eaeaea !important;
+    border-radius: 4px !important;
+}
+panel menulist, panel menulist:not([open]) {
+    background-color: #2e273f !important;
+    box-shadow: inset 0px 0px 0 1px color-mix(in srgb, var(--arrowpanel-background) 88%, var(--lwt-tab-text)) !important;
+    border-radius: 0px !important;
+}
+panel menulist:hover, panel menulist[open] {
+    background-color: var(--button-active-bgcolor) !important;
+    color: #eaeaea !important;
+    box-shadow: none !important;
+}
+#editBookmarkPanel .expander-up, #editBookmarkPanel .expander-down {
+    background-color: #2e273f !important;
+    border-color: color-mix(in srgb, var(--arrowpanel-background) 88%, var(--lwt-tab-text)) !important;
+    border-radius: 0px !important
+}
+#editBookmarkPanel .expander-up:hover, #editBookmarkPanel .expander-down:hover {
+    border-color: var(--button-active-bgcolor) !important;
+    background-color: var(--button-active-bgcolor) !important;
+    color: #eaeaea !important;
+}
+treechildren::-moz-tree-row(selected) {
+    background-color: var(--button-active-bgcolor) !important;
+}
+treechildren::-moz-tree-image(selected), treechildren::-moz-tree-twisty(selected), treechildren::-moz-tree-cell-text(selected) {
+    color: white !important;
+}
+
+#editBMPanel_folderTree treechildren{
+    background-color: var(--arrowpanel-background) !important;
+    border-color: red !important;
+}
+#editBMPanel_tagsSelector{
+    background-color: #2e273f !important;
+    border: 1px solid var(--input-border-color) !important;
+}
+
+richlistitem[selected="true"], #editBMPanel_namePicker::selection , #editBMPanel_tagsField::selection{
+    background-color: var(--button-active-bgcolor) !important;
+    color: white !important;
+}
+
+#editBookmarkPanelImage{
+    box-shadow: inset 0px 0px 0 1px var(--button-bgcolor) !important;
+}
+
+#editBookmarkPanelFavicon[src] {
+  background-color: color-mix(in srgb, var(--arrowpanel-background) 90%, transparent) !important;
+  box-shadow: inset 0px 0px 0 1px var(--button-bgcolor) !important;
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 0px !important;
+  margin-top: 4px !important;
+  margin-inline-start: 4px !important;
+}
+
+#nav-bar .toolbarbutton-1:hover:not([disabled="true"]) > .toolbarbutton-icon,
+#nav-bar .toolbarbutton-1:hover:not([disabled="true"]) > .toolbarbutton-text,
+#nav-bar .toolbarbutton-1:hover:not([disabled="true"]) > .toolbarbutton-badge-stack,
+#nav-bar .toolbarbutton-1[open="true"] > .toolbarbutton-icon,
+#nav-bar .toolbarbutton-1[open="true"] > .toolbarbutton-text,
+#nav-bar .toolbarbutton-1[open="true"] > .toolbarbutton-badge-stack {
+    fill: var(--general-color)
+}

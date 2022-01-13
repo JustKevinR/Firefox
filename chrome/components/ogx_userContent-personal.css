@@ -1,0 +1,294 @@
+:root{ scrollbar-color: #38375580 #18173530 !important; }
+
+window, dialog {                                                                    background-color: #101019 !important;
+    --in-content-primary-button-background: var(--general-color) !important;
+    --in-content-primary-button-text-color: white !important;
+    --in-content-primary-button-background-hover: var(--general-color) !important;
+    --in-content-primary-button-background-active: var(--general-color) !important;
+    
+    --checkbox-unchecked-bgcolor: #101019 !important;
+    --checkbox-unchecked-hover-bgcolor: var(--general-color) !important;
+    --checkbox-unchecked-active-bgcolor: var(--general-color) !important;
+    --checkbox-checked-bgcolor: var(--general-color) !important;
+    --checkbox-checked-color: #fff !important;                                     --checkbox-checked-hover-bgcolor: color-mix(in srgb,
+        var(--general-color), transparent) !important;
+    --in-content-box-background: #1d1d38  !important;
+    --in-content-box-border-color: #3d3d88  !important;
+    
+    --in-content-button-background: #2B2A4f !important;                                --in-content-button-background-hover: var(--button-hover-bgcolor) !important;
+    --in-content-button-background-active: #101019 !important;
+}
+:host, :root {                                                                  /
+    --in-content-page-background: #101019 !important;                           /*Fondo general*/
+    --in-content-text-color: #fff !important;                                   /*Color general */
+    --in-content-page-color: #fff !important;                                   /*color general*/
+    --checkbox-unchecked-bgcolor: var(--in-content-page-background) !important; /
+    --checkbox-unchecked-hover-bgcolor: 
+        var(--general-color) !important;
+    --checkbox-unchecked-active-bgcolor: #26264f !important;
+  
+    --checkbox-checked-bgcolor: var(--general-color) !important;
+    --checkbox-checked-color: var(--in-content-text-color) !important;
+    --checkbox-checked-hover-bgcolor: color-mix(
+        in srgb, var(--general-color) 70%, transparent) !important;
+  
+    --in-content-primary-button-text-color: #192045 !important;
+    --in-content-primary-button-background-hover: color-mix(
+        in srgb, var(--general-color) 60%, transparent) !important;
+    --in-content-primary-button-background-active: var(--general-color) !important;
+                      
+    --in-content-box-background: #1c1726 !important;                                      --in-content-box-border-color: #4a3e65 !important;                        --in-content-box-background-odd: color-mix(
+        in srgb, var(--general-color) 20%, transparent) !important;
+    --in-content-box-info-background: color-mix(
+        in srgb, var(--general-color) 10%, transparent) !important;
+    --section-highlight-background-color: var(--in-content-box-info-background) !important;
+  
+    --in-content-primary-button-background: 
+        var(--general-color) !important;
+    --in-content-deemphasized-text: #fff !important;
+  
+    --in-content-border-color:  var(--general-color) !important;
+    --in-content-table-border-color: color-mix(
+        in srgb, var(--general-color) 50%, transparent) !important;
+    --in-content-button-background: #282337 !important;                                 --in-content-button-background-hover: var(--button-hover-bgcolor) !important;
+    --in-content-button-background-active: var(--general-color) !important;
+  
+    --in-content-link-color: #0099ff !important;
+    --in-content-link-color-hover: #00ccff !important;
+    --in-content-link-color-active:  #0099ff !important;
+    --in-content-link-color-visited: #0099ff !important;
+  
+    --in-content-accent-color:  var(--in-content-text-color) !important;
+    --in-content-accent-color-active: var(--in-content-text-color) !important;
+    --card-outline-color: var(--general-color) !important;
+    
+    --in-content-table-background: var(--in-content-page-background) !important;
+    
+    --in-content-item-hover: color-mix(in srgb,
+        var(--general-color), transparent) !important;
+    --in-content-item-hover-text: var(--in-content-text-color) !important;
+    --in-content-item-selected: var(--general-color) !important;
+    --in-content-item-selected-text:  var(--in-content-text-color) !important;
+    
+    --in-content-focus-outline-color: var(--general-color) !important;
+    --gradiente-casual: linear-gradient(to right,#2e273f 90%, transparent ) !important;
+    
+}
+@-moz-document url(chrome://browser/content/browser.xul), url(about:newtab), url(about:home) {  
+    body {
+
+        --lwt-sidebar-background-color: #181735 !important;
+        
+
+        --newtab-background-color: #101019 !important;    
+
+        --newtab-textbox-background-color: red !important;           
+
+
+        --newtab-background-color-secondary: color-mix(in srgb, white 4%, transparent) !important;
+    
+
+        --newtab-contextmenu-background-color: red !important;   
+        
+
+        --newtab-element-hover-color: var(--newtab-background-color-secondary) !important;                                          
+
+
+        --newtab-element-secondary-hover-color: linear-gradient(to right, var(--button-hover-bgcolor) 49%, transparent) !important; 
+
+        --newtab-element-secondary-active-color: linear-gradient(to right, var(--button-active-bgcolor) 69%, transparent) !important;
+    
+
+        --newtab-icon-primary-color: red !important; 
+
+
+        --newtab-border-color: color-mix( in srgb, var(--newtab-background-color) 90%, var(--newtab-wordmark-color)) !important;   
+
+        --newtab-section-header-text-color:  red !important;
+    
+
+        --newtab-card-background-color: color-mix( in srgb, var(--newtab-background-color) 97%,  var(--newtab-wordmark-color))!important;  
+        
+        --newtab-text-primary-color: #dadada !important;
+        --newtab-text-secondary-color: var(--general-color) !important;      /*Label secundaria*/
+       
+       --newtab-overlay-color: color-mix(in srgb, var(--newtab-background-color)94%,transparent) !important;
+        
+
+        --newtab-textbox-border: var(--general-color) !important;                                                                           
+    
+
+        --newtab-primary-action-background: var(--button-active-bgcolor) !important;                
+
+        
+/        --newtab-element-secondary-color: color-mix( in srgb, var(--newtab-background-color) 90%, var(--newtab-wordmark-color) ) !important;
+
+        --newtab-primary-element-text-color: #dadadabb !important;                          
+}
+.sponsored-checkbox:is(:checked):hover, .sponsored-checkbox:not(:checked):hover{ background-color: var(--button-hover-bgcolor) !important;}
+    
+.home-section .section .slider {border-color: transparent !important;}
+.home-section .section .slider:hover {background-color: var(--button-hover-bgcolor) !important;}
+    
+
+.modal {background-color: var(--newtab-background-color) !important;  border-image: var(--panel-separator-zap-gradient1) 1 !important;}
+.modalOverlayOuter{
+    }
+
+.context-menu {background-color: var(--newtab-background-color) !important; border-radius: 0px !important;
+ box-shadow: 0px 0px 0 1px #00000070, 1px 1px 6px 0px black !important; 
+ border: 1px solid var(--newtab-border-color); border-image: var(--panel-separator-zap-gradient1) 1 !important;}
+
+.context-menu .separator{margin-left: 6px !important; margin-right: 6px !important; width: -moz-available !important;
+    border-image: var(--panel-separator-zap-gradient1) 1 !important;}
+    
+
+.context-menu > ul > li > a:is(:focus, :hover), .context-menu > ul > li > button:is(:focus, :hover) {
+    /
+}  
+
+.context-menu-button:hover, .context-menu-button:active, .context-menu-button:focus{fill: var(--general-color) !important; }   
+  
+
+.actions button:not(.cancel), .actions button:focus:not(.cancel) {
+    color: white !important;  border: transparent !important;}
+.actions button:hover:not(.dismiss) {
+    box-shadow:none !important; background-color: var(--button-hover-bgcolor) !important;}  
+    
+
+.actions button:is(.cancel){ 
+    background-color: var(--newtab-element-secondary-color) !important; border-color: transparent !important; }
+.actions button:is(.cancel):hover {
+    box-shadow:none !important; background-color: #da3633 !important; color: #f0f6fc !important; border-color: #f85149 !important;}
+     
+
+.personalize-button{color: color-mix( in srgb, var(--newtab-background-color) 60%, var(--newtab-wordmark-color) ) !important;}
+.personalize-button:hover {background-color: var(--newtab-background-color-secondary)!important; color:var(--newtab-wordmark-color)  !important;}
+ 
+
+.close-button {background-color: var(--newtab-element-secondary-color) !important; color: var(--newtab-wordmark-color)  !important;
+    box-shadow: 0 0 0 1px var(--newtab-background-color) !important; border-radius: 4px !important; border-color: transparent !important;}
+.close-button:hover{color: var(--newtab-wordmark-color)  !important; background-color: var(--button-active-bgcolor) !important; 
+    box-shadow: 0 0 0 1px var(--button-bgcolor) !important; border-radius: 4px !important;}
+  
+/
+        .customize-menu {color: var(--newtab-wordmark-color) !important; background-color: #101019 !important;}
+
+        .home-section .section .selector { background-color: transparent !important; 
+        border-color: var(--button-hover-bgcolor) !important; border-radius: 0px !important;}
+        .home-section .section .selector:hover { background-color: var(--button-hover-bgcolor) !important; 
+        border-color: var(--button-hover-bgcolor) !important;}
+        .customize-menu.customize-animate-enter-done, .customize-menu.customize-animate-enter-active {
+        box-shadow: 0px 0px 20px rgb(1 1 1 / 16%), 0px 0px 10px rgb(0 0 0 / 93%) !important;}
+
+        .home-section .divider { border-image: var(--panel-separator-zap-gradient1) 1 !important;}    
+  
+*{scrollbar-width: none !important }
+    
+.search-inner-wrapper{ display: none !important;}
+  
+.search-inner-wrapper{margin-top: 50px !important;  box-shadow: 0px 0px 0px 1px #ffffff10 !important;
+    backdrop-filter: blur(8px); border-radius: 8px !important;}
+    
+.compact-cards .card-outer .card-details{
+    backdrop-filter: blur(10px) !important;
+}
+
+.top-site-icon{background-color: transparent !important;}
+    
+
+.top-site-outer .tile{ box-shadow:  0px 0px 0px 1px #ffffff10, 1px 1px 2px #00000090 !important; backdrop-filter: blur(8px)}  
+    
+
+.top-site-outer:is(.active, :focus, :hover) .tile{background-color: color-mix(in srgb, var(--newtab-background-color)68%, transparent) !important;
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--general-color)35%, transparent) !important; backdrop-filter: none !important;}
+
+.top-site-outer:is(.active, :focus, :hover) {
+  background: linear-gradient(0deg, color-mix(in srgb, var(--general-color)50%, transparent) , rgba(0,255,0,0) 64.71%),
+  linear-gradient(190deg, #5b5fa16a, rgba(0,0,255,0) 99.71%) !important;}
+  
+
+.activity-stream {background-color: var(--newtab-background-color, #ff0000) !important;}
+}
+
+
+@-moz-document url-prefix(about:preferences), url-prefix(about:addons), url-prefix(about:support) {    
+button:not(.category) {background-color: #251f33 !important; border-color: #3e3455 !important;}
+button:hover {background-color: var(--button-hover-bgcolor) !important; color: #fafafa !important; border-color: var(--button-hover-bgcolor) !important;}
+#categories{ margin: 70px 15px 0 -18px !important;}
+.sidebar-footer-list { margin-inline: 4px 4px !important; }
+    
+#categories > .category{background-color: var(--in-content-box-background) !important;}
+#categories > .category:hover{background-color: var(--button-hover-bgcolor) !important; color: White !important;}
+#categories > .category[selected]  {background-color: transparent !important; color: color-mix(in srgb, var(--general-color)90%, white) !important; text-decoration: underline !important;}
+#categories > .category[selected]:hover { background-color: var(--button-hover-bgcolor) !important;  color: white !important;}
+button.primary {background-color: var(--button-active-bgcolor) !important;  color: white !important; border-color: transparent !important;}   
+button.primary:hover {background-color: var(--button-hover-bgcolor) !important;  color: #eaeaea !important;}
+th.column{color: #eaeaea !important; background-color:color-mix(in srgb, var(--general-color)20%, transparent)  !important;}
+td { border: 1px solid var(--in-content-table-border-color) !important;}
+panel-list {background: #251f33 !important;}
+.dialogBox {--in-content-page-background: #101019 !important;}
+.subcategory:not([hidden]) ~ .subcategory { border-image: var(--panel-separator-zap-gradient1) 1 !important;} /
+.card[active="true"]{ background-color: color-mix(in srgb, var(--in-content-box-background)96%, white) !important; outline: 1px solid var(--in-content-box-border-color) !important;}
+.card[active="false"]{ outline: 1px solid color-mix(in srgb, var(--in-content-box-border-color)30%, transparent) !important;}
+.addon.card:hover{ outline: transparent !important;}
+#categories, #sidebar ,.main-heading, .main-search , .navigation, .sticky-container  { background: var(--in-content-box-background) !important;}
+.navigation, #sidebar{ border-right: 1px solid #4a3e65 !important;}
+.sticky-container{ border-bottom: 1px solid #4a3e65 !important; box-shadow: 3px 3px 7px #00000050 !important;}
+#main{ margin-inline-start: 10% !important;}
+.main-search {  padding-inline-end: 28px; max-width: 100% !important; padding: 20px 20px !important; }
+.main-search .search-label { display: none !important;}
+.main-heading { margin-top: -52px !important;  margin-bottom: 4px !important; min-width: 50% !important; }
+.main-heading .spacer {  display: none !important;}
+#policies-container, #searchInput {
+    min-height: 32px; border-radius: 16px !important;
+    margin: 20px 70px 20px !important;}
+#policies-container:hover, #searchInput:hover {
+    border-color: var(--general-color) !important;
+    outline: 1px solid var(--general-color) !important; }
+.content-blocking-category.selected {
+    background-color: var(--in-content-box-background) !important;}
+.content-blocking-category.selected {  border-color: color-mix(in srgb, var(--in-content-box-background)90%, white) !important; }
+search-addons > search-textbox {  border-radius: 16px !important;}
+search-addons > search-textbox:hover { outline: 1px solid var(--general-color) !important; border-color: transparent !important;}
+}
+
+@-moz-document url-prefix(about:preferences){    
+ #mainPrefPane{ padding-top: 20px !important; width: 100% !important; }
+.pane-container { margin-inline-start: 50px !important; margin-inline-end: 50px !important;}
+.sticky-container {
+    background: var(--in-content-box-background) !important;
+    background: linear-gradient(to right, var(--in-content-box-background) 94%, var(--in-content-page-background)) !important;
+    width: 125% !important;
+    margin-left: -98px !important;
+    border-bottom: 1px solid red !important; 
+    border-image: var(--gradiente-casual) 1 !important;
+    box-shadow: -7px 3px 7px #00000050 !important;
+    }
+}
+
+.main-stop { stop-color: var(--general-color) !important; }
+.middle-stop { stop-color: color-mix(in srgb, var(--general-color) 65%, transparent) !important;}
+.alt-stop { stop-color: var(--general-color) !important;
+}
+
+@-moz-document url('about:home'), url('about:newtab'),url(about:privatebrowsing) {
+ body {background: url("../images/newtab/wallpaper.png") no-repeat fixed !important; background-size: cover !important;} 
+.logo-and-wordmark .logo {
+  background: url("../images/foxlogo.svg") no-repeat !important; 
+  background-size: cover !important; display: inline-block !important;
+  height: 80px !important; width: 75px !important; -moz-context-properties: fill !important; }    
+.wordmark {
+  background: url("../images/firefox-wordmark.svg") no-repeat center center !important; background-size: 134px !important; 
+  -moz-context-properties: fill !important; display: inline-block !important; height: 82px !important; 
+  margin-inline-start: 16px !important; width: 134px !important;}
+.search-wrapper .logo-and-wordmark {margin-bottom: 0px !important;}
+.promo-cta .button { color: #cacaca !important;}}
+
+@-moz-document url('about:config'), regexp("^about:(neterror|certerror).*") {
+.button[autofocus], .button[type="submit"], .button[default], button.primary:not(:hover) {
+ background-color: var(--button-active-bgcolor) !important;  color: white !important; border-color: transparent !important; }
+    button.primary{color: white !important;}}
+
+@-moz-document url-prefix(about:blank) { html > body:empty { background-color: #101019 !important;  } }
+@-moz-document url(about:blank) {  html > body:empty { background-color: #101019 !important;  } }
